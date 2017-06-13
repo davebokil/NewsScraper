@@ -1,0 +1,29 @@
+img {
+	border-style: solid;
+	border-color: #153D78;
+	border-width: 5px;
+	margin: 5px;
+}
+
+.btn {
+	margin: 2px;
+	color: #3f68a4;
+	border-style: solid;
+	border-color: #153D78;
+	border-width: 3px;	
+}
+
+
+
+body {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	
+	background-color: #5F85BC;
+}
+
+.jumbotron {
+border-style: solid;
+	border-color: #153D78;
+	border-width: 5px;
+	color: #153D78;
+}

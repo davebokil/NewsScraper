@@ -1,0 +1,28 @@
+{
+  "name": "newsscraper",
+  "version": "1.0.0",
+  "description": "scrapes news and allows users to comment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davebokil/NewsScraper.git"
+  },
+  "author": "dave bokil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davebokil/NewsScraper/issues"
+  },
+  "homepage": "https://github.com/davebokil/NewsScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}

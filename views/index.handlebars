@@ -1,0 +1,45 @@
+<div class="container">
+
+    <div class="jumbotron" style="text-align: center;">
+        <h1>News Scraper</h1>
+        <h3>View and save the latest articles from Echo JS</h3>
+    </div>
+
+    <div id="articles"></div>
+    <div id="notes"></div>
+
+{{#each articles}}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{title}}</h3>
+        </div>
+        <div class="panel-body">
+            <a href="{{link}}" target="blank">{{link}}</a>
+            <br><br>
+            <button type="submit" class="btn btn-default" id="saveArticle">
+                Save Article
+            </button>
+        </div>
+    </div>
+{{/each}}
+
+{{#each savedarticles}}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{title}}</h3>
+        </div>
+        <div class="panel-body">
+            <a href="{{link}}" target="blank">{{link}}</a>
+            <br><br>
+            <button type="submit" class="btn btn-default">
+                <a href="/remove">Delete from Saved</a>
+            </button>
+        </div>
+    </div>
+{{/each}}
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="app.js"></script>
