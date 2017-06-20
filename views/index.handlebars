@@ -16,7 +16,7 @@
         <div class="panel-body">
             <a href="{{link}}" target="blank">{{link}}</a>
             <br><br>
-            <button type="submit" class="btn btn-default" id="saveArticle">
+            <button type="submit" class="btn btn-default" id="saveArticle" data-id="{{_id}}">
                 Save Article
             </button>
         </div>
@@ -31,8 +31,8 @@
         <div class="panel-body">
             <a href="{{link}}" target="blank">{{link}}</a>
             <br><br>
-            <button type="submit" class="btn btn-default">
-                <a href="/remove">Delete from Saved</a>
+            <button type="submit" class="btn btn-default" id="deleteArticle" data-id="{{_id}}">
+                Remove from Saved
             </button>
         </div>
     </div>
@@ -41,5 +41,4 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="app.js"></script>
+
